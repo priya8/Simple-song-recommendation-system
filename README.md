@@ -1,2 +1,4 @@
 Simple-song-recommendation-system
 =================================
+Recommender systems or recommendation systems are a subclass of information filtering system that seek to predict the 'rating' or 'preference' or ‘liking’ that user would give to an item.Basically what we are trying to do is embracing elephant in a room i.e filtering big data and obtaining useful stuffs.
+We give the user a set of songs chosen randomly from database and then he/she .chooses songs they like and this is given as input to Naive-bayes Classifier algorithm and then the output obtained i.e person’s nature is analyzed, which artist does he/she like, which genre is he/she more inclined to or which era song does he/she like more is determined. This output is given as input to Apriori algorithm which filters all those data results below the threshold and provides user with songs which he/she may like.
